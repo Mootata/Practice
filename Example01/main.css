@@ -1,0 +1,63 @@
+body {
+    border: 1px solid;
+    margin: 10px;
+    padding: 20px;
+}
+header {
+    
+}
+header nav {
+    
+}
+header nav ul {
+    display: flex; /* * 수직으로 배치되어 있는 ul들을  수평으로 배치함 */
+}
+header nav ul li {
+    list-style: none; /* * list item의 스타일을 사용하지 않음 */
+    margin: 10px;
+}
+main {
+    display: flex;
+    border: 1px solid;
+}
+section {
+    width: 70%;
+    background-color: tomato;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box; /* * padding을 사용해도 사이즈가 늘어나지 않도록 */
+}
+section h1 {
+    
+}
+article { /* * article도 section 안에 있지만 독립성을 가지기 때문에 별도로 구분 */
+    background-color: greenyellow;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+article h2 {
+    
+}
+article p {
+    
+}
+aside {
+    width: 30%;
+    background-color: tomato;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+footer {
+    background-color: tomato;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid;
+}
+footer address{
+    
+}
+footer address a {
+    display: block; /* * a태그는 인라인 요소이기 떄문에 강제로 블록 요소로 바꾸어서 수직으로 배치되도록 */
+}
